@@ -1,0 +1,10 @@
+{
+
+    "files":
+        {
+            "path_to_main_medicare_part_d_file": "E:\\data\\part-d-2011\\2011\\pp_ccwid_bn_2011_r\\pp_ccwid_bn_2011_r.sas7bdat",
+            "path_to_prescriber_id_file": "E:\\data\\part-d-2011\\2011\\propublica_prescriber_ids_2011\\propublica_prescriber_ids_2011.sas7bdat",
+            "path_to_nppes_file": "C:\\Users\\janos\\cms_teaming\\data\\NPPES_Data_Dissemination_September_2014\\npidata_20050523-20140907.csv"},
+    "data_directory": "E:\\data\\medicare_prescriber\\2011\\",
+    "file_prefix": "partd2011"
+}
