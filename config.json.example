@@ -6,5 +6,26 @@
             "path_to_prescriber_id_file": "E:\\data\\part-d-2011\\2011\\propublica_prescriber_ids_2011\\propublica_prescriber_ids_2011.sas7bdat",
             "path_to_nppes_file": "C:\\Users\\janos\\cms_teaming\\data\\NPPES_Data_Dissemination_September_2014\\npidata_20050523-20140907.csv"},
     "data_directory": "E:\\data\\medicare_prescriber\\2011\\",
-    "file_prefix": "partd2011"
-}
+    "file_prefix": "partd2011",
+    "nppes":
+        {"field_name_mapping":
+            {"NPI": "npi",
+            "Provider Business Practice Location Address Postal Code": "zip",
+            "Provider Business Practice Location Address State Name": "state",
+            "Healthcare Provider Taxonomy Code_": ["taxonomy", 1, 15],
+            "Healthcare Provider Primary Taxonomy Switch_": ["primary taxonomy indicator", 1, 15],
+            "Provider Organization Name (Legal Business Name)": "business name",
+            "Provider Last Name (Legal Name)": "last name",
+            "Provider First Name": "first name",
+            "Provider Middle Name": "middle name",
+            "Provider Credential Text": "credentials",
+            "Provider First Line Business Practice Location Address": "first line",
+            "Provider Second Line Business Practice Location Address": "second line",
+            "Provider Business Practice Location Address City Name": "city",
+            "Provider Business Practice Location Address Telephone Number": "practice phone"
+             },
+             "field_name_order": ["npi", "first name", "middle name", "last name", "credentials", "business name",
+             "first line", "second line", "city", "state", "zip", "taxonomy", "primary taxonomy indicator", "practice phone"]
+
+        }
+      }
